@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="./resources/fav.jpeg" type="image/jpeg">
+  <title>appFoco</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>appFoco</h1>
+
+  <div class="input-box">
+    <label for="foco-time">Tempo de Foco em minutos:</label>
+    <input type="number" id="foco-time" min="1" step="1" value="25">
+    <input type="color" id="foco-color" value="#0000FF">
+  </div>
+
+  <div class="input-box">
+    <label for="descanso-time">Tempo de Descanso em minutos:</label>
+    <input type="number" id="descanso-time" min="1" step="1" value="5">
+    <input type="color" id="descanso-color" value="#00FF00">
+  </div>
+
+  <div class="input-box">
+    <label for="tempo-total">Previsão de Tempo Total em minutos:</label>
+    <input type="number" id="tempo-total" min="1" step="1" value="30">
+  </div>
+
+  <button id="start-button">Start appFoco</button>
+  <div id="bar-container">
+    <div id="progress-bar"></div>
+  </div>
+
+  <div class="input-box">
+    <label for="foco-sound">Toque de Foco:</label>
+    <input type="file" id="foco-sound">
+    <input type="number" id="foco-sound-time" min="1" step="1" value="5">
+  </div>
+
+  <div class="input-box">
+    <label for="descanso-sound">Toque de Descanso:</label>
+    <input type="file" id="descanso-sound">
+    <input type="number" id="descanso-sound-time" min="1" step="1" value="5">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

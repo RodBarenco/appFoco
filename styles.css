@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: #FFE6E6;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  .input-box {
+    background-color: #fddde3;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
+  .input-box label {
+    margin-right: 10px;
+  }
+  
+  .input-box input[type="number"] {
+    width: 50px;
+  }
+  
+  .input-box input[type="color"] {
+    width: 30px;
+  }
+  
+  #bar-container {
+    border-radius: 20px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: rgb(201, 201, 220);
+  }
+
+  #progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: blue;
+    margin: 10px auto;
+    display: none;
+    z-index: 1; /* Definindo o z-index como 1 */
+    border-radius: 10px;
+  }
+  
+  button {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
